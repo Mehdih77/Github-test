@@ -1,0 +1,13 @@
+div .b {
+  color: #5314b8;
+  margin-left: 60px;
+  font-size: 30px;
+  font-weight: 800;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+div .b:hover {
+  color: greenyellow;
+}
+/*# sourceMappingURL=B.css.map */

@@ -1,0 +1,15 @@
+div {
+    .b{
+        color: rgb(83, 20, 184);
+        margin-left: 60px;
+        font: {
+            size: 30px;
+            weight: 800;
+        }
+        text-transform: uppercase;
+        text-decoration: underline;
+        &:hover {
+            color: greenyellow;
+        }
+    }
+}
