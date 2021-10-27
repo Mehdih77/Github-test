@@ -1,8 +1,9 @@
+import './C.css';
+
 export default function C() {
     return (
-        <div>
-            C componentssssssssss
-            afqfqsd swew
+        <div className='c'>
+            C components
         </div>
     )
 }

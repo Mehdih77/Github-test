@@ -1,9 +1,5 @@
-import './B.css';
+import "./B.css";
 
 export default function B() {
-    return (
-        <div>
-            <p className='b'>B component</p>
-        </div>
-    )
+  return <div className="b">B component</div>;
 }

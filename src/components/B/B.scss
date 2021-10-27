@@ -1,15 +1,6 @@
-div {
-    .b{
-        color: rgb(83, 20, 184);
-        margin-left: 60px;
-        font: {
-            size: 30px;
-            weight: 800;
-        }
-        text-transform: uppercase;
-        text-decoration: underline;
-        &:hover {
-            color: greenyellow;
-        }
-    }
+.b{
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(17, 0, 255);
+    padding: 20px;
 }

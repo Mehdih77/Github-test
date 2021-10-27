@@ -12,58 +12,8 @@ $blue-color: blue;
 }
 
 .header{
-    margin: 40px;
-    p{
-        color: red;
-        &:hover{
-            color: blue;
-        }
-        strong{
-            color: green;
-        }
-    }
-    div{
-        color: rgb(255, 60, 0);
-        span{
-            background-color: rgb(113, 98, 245);
-            color: brown;
-            font: {
-                size: 25px;
-                weight: 900;
-            }
-            padding-left: 20px;
-            margin-left: 20px;
-        }
-
-    }
-    a{
-        font-size: 30px;
-        display: block;
-        background-color: pink;
-        @include margin-padding(10px,10px,10px,10px,false);
-        span {
-            color: rgb(6, 192, 0);
-            &:hover {
-                color: rgb(182, 7, 7)
-            }
-        }
-
-    
-    }
-    button{
-        @extend %btn;
-        color: $blue-color;
-        position: relative;
-        &::after {
-            content: "after";
-            color: #fff;
-            // font-size: 24px;
-            position: absolute;
-            background-color: purple;
-            width: 40px;
-            height: 40px;
-            top: 0;
-            right: -100px;
-        }
-    }
+    margin: 50px auto;
+    text-align: center;
+    background-color: rgb(255, 0, 0);
+    padding: 20px;
 }
