@@ -1,7 +1,7 @@
 export default function C() {
     return (
         <div>
-            C components
+            C componentssssssssss
         </div>
     )
 }
